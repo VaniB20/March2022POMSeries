@@ -35,7 +35,7 @@ pipeline
         stage('Regression Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/VaniB20/March2022POMSeries.git'
+                    git 'https://github.com/VaniB20/March2022POMSeries'
                     sh "mvn clean install"
                     
                 }
