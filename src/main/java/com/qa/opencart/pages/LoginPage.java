@@ -21,7 +21,6 @@ public class LoginPage {
 	private By registerLink = By.linkText("Register");
 	private By logoutSuccessMesg = By.cssSelector("div#common-success h1");
 	
-	private By vani = By.cssSelector("vani1");
 		
 	//2. page constructor:
 	public LoginPage(WebDriver driver) {
